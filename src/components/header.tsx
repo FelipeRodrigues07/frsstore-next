@@ -16,7 +16,7 @@ import {
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { useRouter } from "next/router";
 
-function header() {
+function Header() {
   const router = useRouter();
 
   const { asPath } = useRouter();
@@ -68,4 +68,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;
